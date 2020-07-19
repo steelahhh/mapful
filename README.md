@@ -2,6 +2,8 @@
 
 An application, that connects to a server using TCP, displays user pins on map and updates in real-time
 
+<img src="media/screen_1.jpg" width="250"> 
+
 # Technologies used: 
 - Kotlin
 - Google Maps
