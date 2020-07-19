@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size_xxl">72dp</dimen>
+    <dimen name="info_container_width">300dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+</resources>

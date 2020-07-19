@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <ImageView
+        android:id="@+id/userIV"
+        android:layout_width="@dimen/icon_size_xxl"
+        android:layout_height="@dimen/icon_size_xxl"
+        android:layout_margin="@dimen/padding_8" />
+
+    <LinearLayout
+        android:id="@+id/userInfoContainer"
+        android:layout_width="@dimen/info_container_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginVertical="@dimen/padding_8"
+        android:layout_marginEnd="@dimen/padding_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/userAddressTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/padding_4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+    </LinearLayout>
+</merge>
